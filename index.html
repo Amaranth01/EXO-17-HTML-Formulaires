@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Ma fiche d'identité</h1>
+
+<form action="monFormulaire" method="post">
+    <fieldset>
+        <label for="name">Nom :</label>
+        <input type="text" id="name" name="yourname" value="Nectoux" autofocus>
+    </fieldset>
+
+    <fieldset>
+        <label for="first-name">Prénom :</label>
+        <input type="text" id="first-name" name="first-name" value="Vanessa">
+    </fieldset>
+
+    <fieldset>
+        <label for="birthday">Date de naissance :</label>
+        <input type="number" id=birthday name="day">
+        <select name="months" id="months">
+            <option value="1">Janvier</option>
+            <option value="2">Février</option>
+            <option value="3">Mars</option>
+            <option value="4">Avril</option>
+            <option value="5">Mai</option>
+            <option value="6">Juin</option>
+            <option value="7">Juillet</option>
+            <option value="8">Août</option>
+            <option value="9">Septembre</option>
+            <option value="10">octobre</option>
+            <option value="11">Novembre</option>
+            <option value="12">Décembre</option>
+        </select>
+        <input type="number" name="year">
+    </fieldset>
+
+    <fieldset>
+        <label for="homme">homme</label>
+        <input type="radio" name="homme" id="homme" value="homme">
+
+        <label for="femme">femme</label>
+        <input type="radio" name="homme" id="femme" value="femme">
+    </fieldset>
+
+    <fieldset>
+        <label for="email">email</label>
+        <input type="email" id="email" placeholder="email" required>
+    </fieldset>
+
+    <fieldset>
+        <p>
+            Vous pouvez me retrouver sur <a href="https://github.com/Amaranth01">Github</a>
+        </p>
+    </fieldset>
+    <button type="submit" name="user_submit">Envoyer</button>
+
+
+</form>
+
+</body>
+</html>
